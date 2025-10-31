@@ -29,6 +29,10 @@
   <style name="TalkBackSettings" parent="Theme.MaterialComponents.DayNight.Bridge" >
     <item name="colorAccent">@color/colorAccent</item>
     <item name="actionBarTheme">@style/SettingsActionBar</item>
+
+    <!-- Disable edge-to-edge -->
+    <item name="android:enforceStatusBarContrast">true</item>
+    <item name="android:fitsSystemWindows">true</item>
   </style>
 
   <style name="SettingsActionBar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
