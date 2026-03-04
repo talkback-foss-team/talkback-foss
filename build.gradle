@@ -21,7 +21,7 @@ buildscript {
         // Gradle (used to drive the build) be a certain version or above. The
         // correspondence is tracked here:
         // https://developer.android.com/build/releases/gradle-plugin#updating-gradle
-        classpath 'com.android.tools.build:gradle:8.13.1'
+        classpath 'com.android.tools.build:gradle:9.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
